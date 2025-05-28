@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Instagram, Mail, Phone, Facebook } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
-import { FaBeer } from 'react-icons/fa';
+// import { FaBeer } from 'react-icons/fa';
 
 
 function App() {
