@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Instagram, Mail, Phone, Facebook } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 // import { FaBeer } from 'react-icons/fa';
@@ -26,7 +26,7 @@ function App() {
           className="absolute inset-0 z-0"
           style={{
             transform: `translateY(${scrollY * 0.5}px)`,
-            backgroundImage: 'url(./src/assets/background.png)',
+            backgroundImage: `url(/background.png)`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             filter: 'brightness(0.3)',
@@ -54,7 +54,7 @@ function App() {
         </div>
         <div className="text-center z-10" style={{ transform: `translateY(${scrollY * -0.2}px)` }}>
           <img
-            src="./src/assets/logo.png"
+            src="/logo.png"
             alt="logo"
             className="mx-auto h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg py-10"
           />
@@ -67,7 +67,7 @@ function App() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative" style={{ transform: `translateY(${(scrollY - 500) * 0.1}px)` }}>
             <img
-              src="./src/assets/banner.jpeg"
+              src="/banner.jpeg"
               alt="Foto Profissional"
               className="rounded-lg shadow-lg w-full h-[500px] object-cover"
             />
@@ -90,12 +90,12 @@ function App() {
         </h2>
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
-            "./src/assets/foto1.jpg",
-            "./src/assets/foto2.jpg",
-            "./src/assets/foto3.jpg",
-            "./src/assets/foto4.jpg",
-            "./src/assets/foto1.jpg",
-            "./src/assets/foto2.jpg",
+            "/foto1.jpg",
+            "/foto2.jpg",
+            "/foto3.jpg",
+            "/foto4.jpg",
+            "/foto1.jpg",
+            "/foto2.jpg",
           ].map((url, index) => (
             <div 
               key={index} 
