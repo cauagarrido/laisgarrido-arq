@@ -33,20 +33,27 @@ function App() {
           }}
         />
         <div className="absolute top-6 right-6 flex gap-4 z-10">
-          <a href="https://instagram.com" className="text-white hover:text-[#e8e1d9] transition-colors">
+          <a
+            href="https://www.instagram.com/laisgarrido.arq/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-[#e8e1d9] transition-colors"
+          >
             <Instagram size={24} />
           </a>
           <a href="mailto:contact@architect.com" className="text-white hover:text-[#e8e1d9] transition-colors">
             <Mail size={24} />
           </a>
-          <a href="https://wa.me/1234567890" className="text-white hover:text-[#e8e1d9] transition-colors">
+          <a href="tel:+5571993185537" className="text-white hover:text-[#e8e1d9] transition-colors">
             <Phone size={24} />
           </a>
           <a href="https://facebook.com" className="text-white hover:text-[#e8e1d9] transition-colors">
             <Facebook size={24} />
           </a>
           <a
-            href="https://wa.me/7199999999"
+            href="https://wa.me/5571993185537"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white hover:text-[#e8e1d9] transition-colors"
           > 
             <FaWhatsapp size={24} />
@@ -59,7 +66,7 @@ function App() {
             className="mx-auto h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg py-10"
           />
           <h1 className="text-6xl font-light text-white mb-4">Laís Garrido</h1>
-          <p className="text-2xl text-[#e8e1d9]">Arquiteta & Designer de Interiores</p>
+          <p className="text-2xl text-[#e8e1d9]">Arquitetura & Interiores</p>
         </div>
       </header>
 
@@ -122,9 +129,21 @@ function App() {
               <Mail size={20} />
               <span>contacto@laisgarrido.com</span>
             </a>
-            <a href="https://wa.me/7199999999" className="flex items-center gap-2 text-[#867970] hover:text-[#5c534c] transition-colors">
+            <a
+              href="https://wa.me/5571993185537"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-[#867970] hover:text-[#5c534c] transition-colors"
+            >
               <FaWhatsapp size={20} />
-              <span>(71) 99999-9999</span>
+              <span>(71) 99318-5537</span>
+            </a>
+            <a
+              href="tel:+5571993185537"
+              className="flex items-center gap-2 text-[#867970] hover:text-[#5c534c] transition-colors"
+            >
+              <Phone size={20} />
+              <span>(71) 99318-5537</span>
             </a>
           </div>
         </div>
@@ -134,19 +153,29 @@ function App() {
         <div className="max-w-6xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-[#867970] mb-4 md:mb-0">© 2025 Cauã Garrido.</p>
           <div className="flex gap-4">
-            <a href="https://instagram.com" className="text-[#867970] hover:text-[#5c534c] transition-colors">
+            <a
+              href="https://www.instagram.com/laisgarrido.arq/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#867970] hover:text-[#5c534c] transition-colors"
+            >
               <Instagram size={20} />
             </a>
             <a href="mailto:contact@architect.com" className="text-[#867970] hover:text-[#5c534c] transition-colors">
               <Mail size={20} />
             </a>
-            <a href="https://wa.me/1234567890" className="text-[#867970] hover:text-[#5c534c] transition-colors">
+            <a href="tel:+5571993185537" className="text-[#867970] hover:text-[#5c534c] transition-colors">
               <Phone size={20} />
             </a>
             <a href="https://facebook.com" className="text-[#867970] hover:text-[#5c534c] transition-colors">
               <Facebook size={20} />
             </a>
-            <a href="https://wa.me/7199999999" className="text-[#867970] hover:text-[#5c534c] transition-colors">
+            <a
+              href="https://wa.me/5571993185537"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#867970] hover:text-[#5c534c] transition-colors"
+            >
               <FaWhatsapp size={20} />
             </a>
           </div>
